@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(27, 78, 173);
+  width: 100%;
+  height: 10vh;
+}
+
+.navbar-logo {
+  color: rgb(236, 236, 236);
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 10rem;
+}
+
+.navbar-links-link {
+  text-decoration: none;
+  color: rgb(236, 236, 236);
+}
+
+.navbar-links-link:hover {
+  color: rgb(196, 196, 196);
+}

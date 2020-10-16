@@ -21,8 +21,8 @@ jobs:
       - name: npm deploy with gh-pages
         run: |
           git config user.name $user_name
-          git config user.email $user_email           
-          git remote set-url origin https://x-access-token:${repo_token}@github.com/${repository}.git           
+          git config user.email $user_email
+          git remote set-url origin https://x-access-token:${repo_token}@github.com/${repository}.git
           npm run deploy
         env:
           user_name: "$GITHUB_ACTOR"

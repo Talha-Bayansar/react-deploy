@@ -6,13 +6,13 @@ function Navbar() {
     <div className="navbar">
       <h1 className="navbar-logo">Logo</h1>
       <div className="navbar-links">
-        <a href="../public/index.html" className="navbar-links-link">
+        <a href="#" className="navbar-links-link">
           Home
         </a>
-        <a href="../public/index.html" className="navbar-links-link">
+        <a href="#" className="navbar-links-link">
           About
         </a>
-        <a href="../public/index.html" className="navbar-links-link">
+        <a href="#" className="navbar-links-link">
           Contact
         </a>
       </div>

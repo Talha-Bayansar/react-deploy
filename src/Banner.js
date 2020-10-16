@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Banner.css";
 
 function Banner() {
-  const [message, setMessage] = useState(process.env.REACT_APP_MESSAGE);
+  const [message] = useState(process.env.REACT_APP_MESSAGE);
   return (
     <div className="banner">
       <p className="banner-text">

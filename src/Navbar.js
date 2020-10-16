@@ -6,9 +6,9 @@ function Navbar() {
     <div className="navbar">
       <h1 className="navbar-logo">Logo</h1>
       <div className="navbar-links">
-        <a className="navbar-links-link">Home</a>
-        <a className="navbar-links-link">About</a>
-        <a className="navbar-links-link">Contact</a>
+        <span className="navbar-links-link">Home</span>
+        <span className="navbar-links-link">About</span>
+        <span className="navbar-links-link">Contact</span>
       </div>
     </div>
   );
